@@ -16,7 +16,7 @@ app.get('/', async (req, res) => {
     await Resemble.v2.clips.updateAsync('ec2d5337', '3a1f167e', {
         voice_uuid: '14ebc696',
         body: 'This audio will be synthesized',
-        callback_uri: 'https://t2snz-gmul.onrender.com/',
+        callback_uri: 'https://t2snz.onrender.com/',
         title: 'Updated',
         output_format: "wav",
         is_public: true
