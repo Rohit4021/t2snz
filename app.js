@@ -1,7 +1,6 @@
 const express = require('express')
 const app = express()
 const path = require('path')
-const hbs = require('hbs')
 const { Resemble } = require('@resemble/node')
 const fs = require('fs')
 const request = require('request')
